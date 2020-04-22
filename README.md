@@ -35,6 +35,12 @@ $ ng serve
 
 http://localhost:4200/
 
+$ ng add @angular/material
+- Choose a prebuilt theme name, or "custom" for a custom theme: (Use arrow keys)
+- **❯ Indigo/Pink        [ Preview: https://material.angular.io?theme=indigo-pink ]**
+-  Set up global Angular Material typography styles? (y/N) **Y**
+- Set up browser animations for Angular Material? (y/N) **Y**
+
 
 # Referências Externas
 - http://gitignore.io/api/angular
