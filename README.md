@@ -24,6 +24,7 @@ ngrok: para conseguir exibir seu localhost na web;
 $ sudo snap install ngrok
 
 Grid Rule: Cria *grids* no navegador Chrome para facilitar medidas e alinhamentos;
+
 [Plugin Chrome Grid Rule](https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR)  
 
 
@@ -70,7 +71,7 @@ ngrok para ver angular local na web:
 - https://www.typescriptlang.org/
 - https://material.io/resources/icons/?style=baseline
 - https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR
--[COD3R - (...) Entenda Flexbox!](https://www.youtube.com/watch?v=s-CARPA01NU&feature=youtu.be)
+- [COD3R - (...) Entenda Flexbox!](https://www.youtube.com/watch?v=s-CARPA01NU&feature=youtu.be)
 
 
 
