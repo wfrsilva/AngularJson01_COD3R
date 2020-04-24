@@ -8,20 +8,20 @@ Inspirado na [playlist de aulas Angular](https://www.youtube.com/playlist?list=P
 >> COD3R Cursos
 
 # Aulas
-     Algumas aulas são 100% teoria, então não teria código para atulaziar no github. Exemplo: Aula 01 - segunda parte do video [Angular 9 - Curso Grátis - Backend & Visão Geral do Angular [2020]](https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&index=1)
+Algumas aulas são 100% teoria, então não teria código para atulaziar no github. Exemplo: Aula 01 - segunda parte do video [Angular 9 - Curso Grátis - Backend & Visão Geral do Angular [2020]](https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&index=1)
 
 # Instalações primordiais
-$ npm i json-server
+$ `npm i json-server`
 
-$ snap install postman
+$ `snap install postman`
 
-$ npm i -g @angular/cli
+$ `npm i -g @angular/cli`
 
 
 # Instalações auxiliares
 
 ngrok: para conseguir exibir seu localhost na web;
-- $ sudo snap install ngrok
+- $ `sudo snap install ngrok`
 
 Grid Rule: Cria *grids* no navegador Chrome para facilitar medidas e alinhamentos;
 - [Plugin Chrome Grid Rule](https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR)  
@@ -29,37 +29,38 @@ Grid Rule: Cria *grids* no navegador Chrome para facilitar medidas e alinhamento
 
 
 # Comandos
-$ sudo apt install npm
+$ `sudo apt install npm`
  
-.../backend$ npm init -y
+.../backend$ `npm init -y`
 
-$ npm start
+$ `npm start`
 
-$ ng new frontend --minimal
+$ `ng new frontend --minimal`
 > - Would you like to add Angular routing? (y/N) **Y**
 > - **> CSS**
 > - **CSS** | SCSS | Sass | Less | Stylus 
 
-$ cd frontend
-$ ng serve
+$ `cd frontend`
+$ `ng serve`
 
 http://localhost:4200/
 
-$ ng add @angular/material
+$ `ng add @angular/material`
 > - Choose a prebuilt theme name, or "custom" for a custom theme: (Use arrow keys)
 > - **❯ Indigo/Pink        [ Preview: https://material.angular.io?theme=indigo-pink ]**
 > -  Set up global Angular Material typography styles? (y/N) **Y**
 > - Set up browser animations for Angular Material? (y/N) **Y**
 
-*frontend*$ ng generate component components/template/header
+frontend$ `ng generate component components/template/header`
 > ou
-> *frontend*$ ng g c components/template/header
+> frontend$ `ng g c components/template/header`
 
-*frontend*$ ng g c components/template/footer
+frontend$ `ng g c components/template/footer`
 
-*frontend*$ ng g c components/template/nav
+frontend$ `ng g c components/template/nav`
 
 ngrok para visualizar projeto angular local (localhost) na web:
+
 `$ ngrok http 4200 -host-header="localhost:4200"`
 
 
