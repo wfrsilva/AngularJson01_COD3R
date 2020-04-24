@@ -10,7 +10,7 @@ Inspirado na [playlist de aulas Angular](https://www.youtube.com/playlist?list=P
 # Aulas
      Algumas aulas são 100% teoria, então não teria código para atulaziar no github. Exemplo: Aula 01 - segunda parte do video [Angular 9 - Curso Grátis - Backend & Visão Geral do Angular [2020]](https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&index=1)
 
-# Instalações promordiais
+# Instalações primordiais
 $ npm i json-server
 
 $ snap install postman
@@ -20,8 +20,11 @@ $ npm i -g @angular/cli
 
 # Instalações auxiliares
 
-ngrok: para conseguir exibir seu localhost na web
+ngrok: para conseguir exibir seu localhost na web;
 $ sudo snap install ngrok
+
+Grid Rule: Cria *grids* no navegador Chrome para facilitar medidas e alinhamentos;
+[Plugin Chrome Grid Rule](https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR)  
 
 
 
@@ -66,6 +69,7 @@ ngrok para ver angular local na web:
 - https://www.cod3r.com.br/courses/angular-9-essencial
 - https://www.typescriptlang.org/
 - https://material.io/resources/icons/?style=baseline
+- https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR
 
 
 
