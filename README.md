@@ -10,12 +10,19 @@ Inspirado na [playlist de aulas Angular](https://www.youtube.com/playlist?list=P
 # Aulas
      Algumas aulas são 100% teoria, então não teria código para atulaziar no github. Exemplo: Aula 01 - segunda parte do video [Angular 9 - Curso Grátis - Backend & Visão Geral do Angular [2020]](https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&index=1)
 
-# Instalações
+# Instalações promordiais
 $ npm i json-server
 
 $ snap install postman
 
 $ npm i -g @angular/cli
+
+
+# Instalações auxiliares
+
+ngrok: para conseguir exibir seu localhost na web
+$ sudo snap install ngrok
+
 
 
 # Comandos
@@ -41,11 +48,25 @@ $ ng add @angular/material
 -  Set up global Angular Material typography styles? (y/N) **Y**
 - Set up browser animations for Angular Material? (y/N) **Y**
 
+*frontend*$ ng generate component components/template/header
+>ou
+*frontend*$ ng g c components/template/header
+
+*frontend*$ ng g c components/template/footer
+
+*frontend*$ ng g c components/template/nav
+
+ngrok para ver angular local na web:
+`$ ngrok http 4200 -host-header="localhost:4200"`
+
+
 
 # Referências Externas
 - http://gitignore.io/api/angular
 - https://www.cod3r.com.br/courses/angular-9-essencial
 - https://www.typescriptlang.org/
+- https://material.io/resources/icons/?style=baseline
+
 
 
 
