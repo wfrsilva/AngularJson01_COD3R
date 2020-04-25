@@ -7,8 +7,27 @@ Inspirado na [playlist de aulas Angular](https://www.youtube.com/playlist?list=P
 > Falaremos sobre: Componentes, Diretivas, Services, Observables, RxJS, Pipes, Injeção de Dependência e muito mais.
 >> COD3R Cursos
 
-# Aulas
-Algumas aulas são 100% teoria, então não teria código para atulaziar no github. Exemplo: Aula 01 - segunda parte do video [Angular 9 - Curso Grátis - Backend & Visão Geral do Angular [2020]](https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&index=1)
+# Aulas youtube x aulas cod3r
+- Algumas aulas são 100% teoria, então não teria código para atulaziar no github. Exemplo: Aula 01 - segunda parte do video [Angular 9 - Curso Grátis - Backend & Visão Geral do Angular [2020]](https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&index=1)
+
+- Alguns videos do Cod3r são agrupados no video do youtube, assim um video do youtube pode tar de dois a tres videos do cod3r:
+  - Exemplo: Aula 06 do youtube equivale a aula 16 na contagem Geral e aula 12 no topico de Frontend;
+  
+- Estrutura videos Cod3r:
+  - Introdução : 03 vídeos;
+  - Backend : 01 vídeo;
+  - FrontEnd: 39 vídeos;
+  
+- Aulas do youtube estão sendo publicadas aos poucos:
+  - 22/004/2020 - Publicada Aula 05 youtube (Equivale à aula 10 de 39 do Frontend) :
+    - [Angular 9 - Curso Grátis - Elementos do Angular #01 \[2020\]](https://www.youtube.com/watch?v=NgHu3ekeN_I&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&index=5)
+
+  - 24/04/2020 - Publicada Aula 06 youtube (Equivale à aula 11 de 39 do Frontend) :
+    - [Angular 9 - Curso Grátis - Elementos do Angular #02 \[2020\]](https://www.youtube.com/watch?v=LjNS1BgyEf4&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&index=6)
+- [Commits](https://github.com/wfrsilva/AngularJson01_COD3R/commits/master): Em função de não ter aula no youtube, caso esteja a frente das publicações, usarei a contagem de videos do Frontend até o 39 (F-??/39):
+  - Hoje, 24/04/2020, será [Aula F-12/39 :Elementos do Angular #03](https://www.cod3r.com.br/courses/take/angular-9-essencial/lessons/11778770-elementos-do-angular-03);
+
+
 
 # Instalações primordiais
 $ `npm i json-server`
