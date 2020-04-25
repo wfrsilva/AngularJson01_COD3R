@@ -84,6 +84,8 @@ frontend$ `ng g d directives/red`
 
 frontend$ `ng g d directives/for`
 
+frontend$ `ng g c components/product/product-create`
+
 
 
 ngrok para visualizar projeto angular local (localhost) na web:
