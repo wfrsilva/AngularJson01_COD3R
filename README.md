@@ -78,6 +78,11 @@ frontend$ `ng g c components/template/footer`
 
 frontend$ `ng g c components/template/nav`
 
+frontend$ `ng g c views/home`
+
+
+
+
 ngrok para visualizar projeto angular local (localhost) na web:
 
 `$ ngrok http 4200 -host-header="localhost:4200"`
@@ -86,6 +91,8 @@ ngrok para visualizar projeto angular local (localhost) na web:
 
 # Referências Externas
 - http://gitignore.io/api/angular
+  - https://angular.io/guide/hierarchical-dependency-injection
+
 - https://www.cod3r.com.br/courses/angular-9-essencial
 - https://www.typescriptlang.org/
 - https://material.io/resources/icons/?style=baseline
