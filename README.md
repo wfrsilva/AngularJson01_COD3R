@@ -80,6 +80,9 @@ frontend$ `ng g c components/template/nav`
 
 frontend$ `ng g c views/home`
 
+frontend$ `ng g d directives/red`
+
+frontend$ `ng g d directives/for`
 
 
 
