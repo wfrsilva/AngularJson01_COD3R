@@ -3,15 +3,12 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
 import { Observable, of as observableOf, merge } from 'rxjs';
+import { Product } from '../product.model';
 
-// TODO: Replace this with your own data model type
-export interface ProductReadtableItem {
-  name: string;
-  id: number;
-}
+
 
 // TODO: replace this with real data from your application
-const EXAMPLE_DATA: ProductReadtableItem[] = [
+const EXAMPLE_DATA: Product[] = [
   {id: 1, name: 'Hydrogen'},
   {id: 2, name: 'Helium'},
   {id: 3, name: 'Lithium'},
@@ -39,8 +36,8 @@ const EXAMPLE_DATA: ProductReadtableItem[] = [
  * encapsulate all logic for fetching and manipulating the displayed data
  * (including sorting, pagination, and filtering).
  */
-export class ProductReadtableDataSource extends DataSource<ProductReadtableItem> {
-  data: ProductReadtableItem[] = EXAMPLE_DATA;
+export class ProductReadtableDataSource extends DataSource<Product> {
+  data: Product[] = EXAMPLE_DATA;
   paginator: MatPaginator;
   sort: MatSort;
 

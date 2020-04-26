@@ -2,7 +2,8 @@ import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
-import { ProductReadtableDataSource, ProductReadtableItem } from './product-readtable-datasource';
+import { ProductReadtableDataSource } from './product-readtable-datasource';
+import { Product } from '../product.model';
 
 @Component({
   selector: 'app-product-readtable',
@@ -12,7 +13,7 @@ import { ProductReadtableDataSource, ProductReadtableItem } from './product-read
 export class ProductReadtableComponent implements AfterViewInit, OnInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
-  @ViewChild(MatTable) table: MatTable<ProductReadtableItem>;
+  @ViewChild(MatTable) table: MatTable<Product>;
   dataSource: ProductReadtableDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
