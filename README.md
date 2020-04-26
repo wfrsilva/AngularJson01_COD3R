@@ -107,6 +107,7 @@ $ `node --max_old_space_size=2048 node_modules/@angular/cli/bin/ng serve --host 
 - https://material.io/resources/icons/?style=baseline
 - https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR
 - [COD3R - (...) Entenda Flexbox!](https://www.youtube.com/watch?v=s-CARPA01NU&feature=youtu.be)
+- https://unix.stackexchange.com/questions/128953/how-to-display-top-results-sorted-by-memory-usage-in-real-time
 
 
 
