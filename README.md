@@ -90,6 +90,8 @@ frontend$ `ng g s components/product/product`
 
 frontend$ `ng g c components/product/product-read`
 
+frontend$ `ng g @angular/material:table components/product/product-readtable` video usou read2
+
 
 ---
 
@@ -106,6 +108,7 @@ $ `node --max_old_space_size=2048 node_modules/@angular/cli/bin/ng serve --host 
 # Referências Externas
 - http://gitignore.io/api/angular
   - https://angular.io/guide/hierarchical-dependency-injection
+  - https://material.angular.io/guide/schematics
 
 - https://www.cod3r.com.br/courses/angular-9-essencial
 - https://www.typescriptlang.org/
