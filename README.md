@@ -88,6 +88,11 @@ frontend$ `ng g c components/product/product-create`
 
 frontend$ `ng g s components/product/product`
 
+frontend$ `ng g c components/product/product-read`
+
+
+---
+
 ngrok para visualizar projeto angular local (localhost) na web:
 
 $ `ngrok http 4200 -host-header="localhost:4200"`
