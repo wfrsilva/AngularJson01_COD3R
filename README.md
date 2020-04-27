@@ -104,6 +104,8 @@ frontend$ `ng g c components/product/product-delete`
 
 ---
 
+
+
 ngrok para visualizar projeto angular local (localhost) na web:
 
 $ `ngrok http 4200 -host-header="localhost:4200"`
