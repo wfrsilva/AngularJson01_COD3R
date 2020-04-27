@@ -98,7 +98,7 @@ frontend$ `ng g @angular/material:table components/product/product-readtable` vi
 
 frontend$ `ng g c components/product/product-update`
 
-
+frontend$ `ng g c components/product/product-delete`
 
 
 
