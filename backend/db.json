@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Samsung S20+",
       "price": 500.89
+    },
+    {
+      "name": "Codorna Femea",
+      "price": "5.55",
+      "id": 5
     }
   ]
 }
