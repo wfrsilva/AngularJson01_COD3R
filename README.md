@@ -92,6 +92,11 @@ frontend$ `ng g c components/product/product-read`
 
 frontend$ `ng g @angular/material:table components/product/product-readtable` video usou read2
 
+frontend$ `ng g c components/product/product-update`
+
+
+
+
 
 ---
 
