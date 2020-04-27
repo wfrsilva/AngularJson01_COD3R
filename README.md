@@ -27,6 +27,9 @@ Inspirado na [playlist de aulas Angular](https://www.youtube.com/playlist?list=P
 - [Commits](https://github.com/wfrsilva/AngularJson01_COD3R/commits/master): Em função de não ter aula no youtube, caso esteja a frente das publicações, usarei a contagem de videos do Frontend até o 39 (F-??/39):
   - Hoje, 24/04/2020, será [Aula F-12/39 :Elementos do Angular #03](https://www.cod3r.com.br/courses/take/angular-9-essencial/lessons/11778770-elementos-do-angular-03);
 
+- [Aula Cod3rs F-33/39 : Desafio Método Excluir Produto](https://www.cod3r.com.br/courses/take/angular-9-essencial/lessons/11778701-desafio-metodo-excluir-produto)
+
+
 
 
 # Instalações primordiais
