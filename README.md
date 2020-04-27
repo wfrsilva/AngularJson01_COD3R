@@ -100,6 +100,7 @@ frontend$ `ng g c components/product/product-update`
 
 frontend$ `ng g c components/product/product-delete`
 
+frontend$ `ng g s components/template/header/header`
 
 
 ---
