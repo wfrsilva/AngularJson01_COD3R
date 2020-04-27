@@ -102,9 +102,7 @@ frontend$ `ng g c components/product/product-delete`
 
 frontend$ `ng g s components/template/header/header`
 
-
 ---
-
 
 
 ngrok para visualizar projeto angular local (localhost) na web:
@@ -114,7 +112,6 @@ $ `ngrok http 4200 -host-header="localhost:4200"`
 Tentando minimizar o uso de memoria do ng serve:
 
 $ `node --max_old_space_size=2048 node_modules/@angular/cli/bin/ng serve --host 0.0.0.0`
-
 
 
 # Referências Externas
