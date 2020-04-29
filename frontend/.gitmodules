@@ -1,0 +1,3 @@
+[submodule "AngularJson01_COD3R/frontend"]
+	path = AngularJson01_COD3R/frontend
+	url = https://github.com/wfrsilva/angularjson01_cod3r
