@@ -49,16 +49,28 @@ ngrok: para conseguir exibir seu localhost na web;
 Grid Rule: Cria *grids* no navegador Chrome para facilitar medidas e alinhamentos;
 - [Plugin Chrome Grid Rule](https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR)  
 
-# Angular github-pages
+# Angular deploy github-pages
 https://www.youtube.com/watch?v=wmskNL5xyjw
+
 Problemas na build
+
 ´$ ng build --prod --base-href "https://wfrsilva.github.io/AngularJson01_COD3R/"
 An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
 See "C:\Users\Avell\AppData\Local\Temp\ng-B79Plr\angular-errors.log" for further details.`
 
+### Cannot find module '@angular-devkit - Tentando solucao:
 
 https://stackoverflow.com/questions/50333003/could-not-find-module-angular-devkit-build-angular
+
 $´npm install --save-dev @angular-devkit/build-angular`
+
+
+# Angular deploy tiiny.host
+- Muito simples (very easy)
+- [Tutorial tiinyhost](https://www.youtube.com/watch?v=S1oWuxQqJqs)
+- Deploy realizado com sucesso: https://wfrsilva-angular-json01.tiiny.host
+
+
 
 
 
