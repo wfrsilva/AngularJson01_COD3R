@@ -49,6 +49,34 @@ ngrok: para conseguir exibir seu localhost na web;
 Grid Rule: Cria *grids* no navegador Chrome para facilitar medidas e alinhamentos;
 - [Plugin Chrome Grid Rule](https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR)  
 
+# Angular deploy github-pages
+https://www.youtube.com/watch?v=wmskNL5xyjw
+
+Problemas na build
+
+´$ ng build --prod --base-href "https://wfrsilva.github.io/AngularJson01_COD3R/"
+An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
+See "C:\Users\Avell\AppData\Local\Temp\ng-B79Plr\angular-errors.log" for further details.`
+
+### Cannot find module '@angular-devkit - Tentando solucao:
+
+https://stackoverflow.com/questions/50333003/could-not-find-module-angular-devkit-build-angular
+
+$´npm install --save-dev @angular-devkit/build-angular`
+
+
+# Angular deploy tiiny.host
+- Muito simples (very easy)
+- [Tutorial tiinyhost](https://www.youtube.com/watch?v=S1oWuxQqJqs)
+- Deploy realizado com sucesso: https://wfrsilva-angular-json01.tiiny.host
+
+
+
+
+
+
+
+
 # Comandos
 $ `sudo apt install npm`
  
@@ -112,42 +140,6 @@ Tentando minimizar o uso de memoria do ng serve:
 $ `node --max_old_space_size=2048 node_modules/@angular/cli/bin/ng serve --host 0.0.0.0`
 
 
-
-
-# Angular deploy github-pages
-https://www.youtube.com/watch?v=wmskNL5xyjw
-
-Problemas na build
-
-´$ ng build --prod --base-href "https://wfrsilva.github.io/AngularJson01_COD3R/"
-An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
-See "C:\Users\Avell\AppData\Local\Temp\ng-B79Plr\angular-errors.log" for further details.`
-
-### Cannot find module '@angular-devkit - Tentando solucao:
-
-https://stackoverflow.com/questions/50333003/could-not-find-module-angular-devkit-build-angular
-
-$ `sudo npm install --save-dev @angular-devkit/build-angular`
-
-$ `sudo npm  install -g angular-cli-ghpages`
-
-$frontend$ `ng build --prod --base-href "https://wfrsilva.github.io/AngularJson01_COD3R/frontend/"`
-
-
-
-# Angular deploy tiiny.host
-- PROS
-  - Muito simples (very easy) de configurar;
-- CONTRAS
-  - Versão free fica no ar por 7 dias;
-
-- [Tutorial tiinyhost](https://www.youtube.com/watch?v=S1oWuxQqJqs)
-- Deploy realizado com sucesso: https://wfrsilva-angular-json01.tiiny.host
-
-
-
-
-
 # Referências Externas
 - http://gitignore.io/api/angular
   - https://angular.io/guide/hierarchical-dependency-injection
@@ -159,6 +151,7 @@ $frontend$ `ng build --prod --base-href "https://wfrsilva.github.io/AngularJson0
 - https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj?hl=pt-BR
 - [COD3R - (...) Entenda Flexbox!](https://www.youtube.com/watch?v=s-CARPA01NU&feature=youtu.be)
 - https://unix.stackexchange.com/questions/128953/how-to-display-top-results-sorted-by-memory-usage-in-real-time
+
 
 
 
